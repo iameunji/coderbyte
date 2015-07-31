@@ -1,7 +1,7 @@
 def LetterCapitalize(str)
   str = str.split
   str.each do |cap|
-		cap.capitalize!
+	cap.capitalize!
     end
 return str*" "
          
